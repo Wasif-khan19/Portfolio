@@ -1,9 +1,10 @@
-import { LampDemo } from "../ui/lamp";
+import React from "react";
+import { SparklesPreview } from "../ui/star";
 
 const Aboutme = () => {
   return (
-    <div>
-      <LampDemo/>
+    <div className="mt-96 md:mt-96 lg:mt-0">
+      <SparklesPreview />
     </div>
   );
 };

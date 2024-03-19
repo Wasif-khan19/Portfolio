@@ -1,12 +1,14 @@
 import Link from "next/link";
 import React from "react";
+import { AnimatedTooltipPreview } from "../ui/anma";
+import { SparklesPreview } from "../ui/stars";
 
 const Projects = () => {
   return (
-    <section className="text-gray-600 body-font mt-96 md:mt-80 sm:mt-96">
+    <section className="text-gray-600 body-font mt-60">
       <div className="container px-5 mx-auto">
-      <h1 className="text-center font-bold text-6xl">PROJECTS</h1>
-        <div className="flex flex-wrap -m-4 mt-10">
+      <h1 className=" mt-96 md:mt-96 lg:mt-0 md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">PROJECTS</h1>
+        <div className="flex flex-wrap">
           <div className="p-4 lg:w-1/3">
             <div className="h-full bg-black bg-opacity-75 rounded-xl px-8 pt-16 pb-24 overflow-hidden text-center relative">
               <h1 className="title-font sm:text-2xl text-xl font-bold text-white mb-3">

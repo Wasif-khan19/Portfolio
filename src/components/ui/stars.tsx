@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
-import { TextRevealCardPreview } from "./card";
 import Projects from "../Views/Projects";
 
 export function SparklesPreview() {
