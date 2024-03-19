@@ -1,10 +1,6 @@
 'use client'
 import { NavbarArray, NavbarItemType } from "@/components/utils/NavbarArrayandTypes"
-import Image from "next/image"
 import Link from "next/link"
-import { FaOpencart } from 'react-icons/fa'
-import { BiChevronDown } from 'react-icons/bi'
-import DropDown from "./SubComponents/DropDown"
 import { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi"
 import { IoMdClose } from 'react-icons/io'
