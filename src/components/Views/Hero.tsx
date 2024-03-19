@@ -1,8 +1,5 @@
 import Image from "next/image";
-import { Button } from "../ui/button";
-import { CiLocationArrow1 } from "react-icons/ci";
 import Link from "next/link";
-import { AnimatedTooltipPreview } from "../ui/anma";
 
 const Hero = () => {
   return (
