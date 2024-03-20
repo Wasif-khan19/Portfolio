@@ -13,10 +13,10 @@ const Footer = () => {
     <p className="text-2xl font-bold ml-3 text-white">Portfolio</p>
     </a>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start gap-2">
-      <Link href={'https://www.facebook.com/profile.php?id=100055704636250'}><FaFacebookSquare size={28} color='#374151'/></Link>
-      <Link href={'https://twitter.com/WasifKh05957381'}><FaXTwitter size={28} color='#374151'/></Link>
-      <Link href={'https://www.linkedin.com/in/muhammad-wasif-48282b274/'}><FaLinkedin size={28} color='#374151'/></Link>
-      <Link href={'https://www.instagram.com/muhammad_wasif19/'}><RiInstagramFill size={28} color='#374151'/></Link>
+      <Link href={'https://www.facebook.com/profile.php?id=100055704636250'}><FaFacebookSquare size={28} target='_blank' color='#374151'/></Link>
+      <Link href={'https://twitter.com/WasifKh05957381'}><FaXTwitter size={28} target='_blank' color='#374151'/></Link>
+      <Link href={'https://www.linkedin.com/in/muhammad-wasif-48282b274/'}><FaLinkedin size={28} target='_blank' color='#374151'/></Link>
+      <Link href={'https://www.instagram.com/muhammad_wasif19/'}><RiInstagramFill size={28} target='_blank' color='#374151'/></Link>
     </span>
   </div>
 </footer>

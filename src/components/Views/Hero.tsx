@@ -22,11 +22,11 @@ const Hero = () => {
           </p>
           <div className="flex justify-center">
             <Link
-              href={"https://github.com/Wasif-khan19"}
+              href={"https://www.instagram.com/muhammad_wasif19/"}
               target="_blank"
               className="inline-flex text-black bg-sky-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-700 rounded text-lg font-bold"
             >
-              Resume
+              Say Hello
             </Link>
           </div>
         </div>
